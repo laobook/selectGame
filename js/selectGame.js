@@ -6,6 +6,7 @@ function submit_click() {
     alert(document.getElementById('gameType').value+"-->"+document.getElementById('gameList').value);
 }
 function changeGame() {
+    //20190607-2
     var gameType=document.getElementById('gameType').value;
     var gameList=document.getElementById('gameList');
     gameList.options.length=0;
